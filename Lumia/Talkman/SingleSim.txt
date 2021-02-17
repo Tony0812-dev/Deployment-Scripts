@@ -1,12 +1,12 @@
 # Configuring device
-Copy "Downloaded\MSM8992.UEFI.Lumia.950\ELF\UEFI.elf" "[EFIESP]\"
-Copy "Downloaded\UEFI Loader for 8992 and 8994\ARM\Debug\BootShim.efi" "[EFIESP]\EFI\boot\"
-ConfigureBCD
-InstallDevMenu "Core\Developer Menu\"
+# Copy "Downloaded\MSM8992.UEFI.Lumia.950\ELF\UEFI.elf" "[EFIESP]\"
+# Copy "Downloaded\UEFI Loader for 8992 and 8994\ARM\Debug\BootShim.efi" "[EFIESP]\EFI\boot\"
+# ConfigureBCD
+# InstallDevMenu "Core\Developer Menu\"
 # Deploying Windows
-DeployWindows
-MakeWindowsBootable
-CopyDirectory "[DPP]" "[Windows]\DPP"
+# DeployWindows
+# MakeWindowsBootable
+# CopyDirectory "[DPP]" "[Windows]\DPP"
 # Injecting Drivers
 InjectDrivers "Downloaded\DEVICE.INPUT.SYNAPTICS_RMI4_F12_10"
 InjectDrivers "Downloaded\DEVICE.SOC_QC8994.TALKMAN"
